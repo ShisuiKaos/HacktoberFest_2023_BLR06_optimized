@@ -1,0 +1,16 @@
+class item:
+    def largest(self, x, y):
+        if x > y:
+            return x
+        else:
+            return y
+
+    def display(self, x, y):
+        print("First no.  =>", x)
+        print("Second no. =>", y)
+        print("Largest =>", self.largest(x, y))
+
+x = int(input("Enter two no. =>\n"))
+y = int(input())
+I = item()
+I.display(x, y)
